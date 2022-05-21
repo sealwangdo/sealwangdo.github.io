@@ -45,21 +45,9 @@ description: [github docs搭建博客入门，及遇到的问题]
 
 在 2018 年 5 月 1 日之后，GitHub Pages 已经开始提供免费为自定义域名开启 HTTPS 的功能，并且大大简化了操作的流程，现在用户已经不再需要自己提供证书，只需要将自己的域名使用 CNAME 的方式指向自己的 GitHub Pages 域名即可。
 
-首先在你的 DNS 解析里添加一条解析记录，例如我选择添加子域名 `blog.moyu.life` 通过 CNAME 的方式指向我刚刚自定义的 GitHub Pages 域名 `brick713.GitHub.io`。添加完成后等待 DNS 解析的生效（DNS 的解析记录生效到全球可能需要几分钟时间）。
+![image-20220521121346853](https://tva1.sinaimg.cn/large/e6c9d24egy1h2fwinyf8mj21qm0rqgqu.jpg)
 
-![img](https://tva1.sinaimg.cn/large/e6c9d24egy1h2ds2nnyo7j20v40emabf.jpg)
-
-之后重新回到最开始进入过的 Settings 界面，找到 GitHub Pages 的设置，填写我们刚刚建立的子域名，以我自己的 blog.moyu.life 举例，点击保存。
-
-![img](https://tva1.sinaimg.cn/large/e6c9d24egy1h2ds2vb2uaj20v40pg0vi.jpg)
-
-保存后 GitHub 需要一定的时间生成证书并确认域名的解析是否正常，我们只需要耐心的等待即可，成功后显示结果如下
-
-![img](https://tva1.sinaimg.cn/large/e6c9d24egy1h2ds2she52j20v40pan04.jpg)
-
-现在我们再访问 blog.moyu.life 就会发现，我们的自定义域名和 HTTPS 都生效了！可以看到证书是由著名的机构 Let's Encrypt 提供的。
-
-### GitHub Pages 的生成工具
+### 网站生成工具
 
 经历了上面的步骤，现在你的已经有了一个简单的页面了，可是他还远远未满足我们的需求，我们需要利用静态模板系统来让生产接管你博客的文章的生成，让你把更多的经历投入在创作里。下面就 GitHub 官方推荐的 Jekyll 为例子来展开讲讲。
 
