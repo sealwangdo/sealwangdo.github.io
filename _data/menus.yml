@@ -1,0 +1,28 @@
+- title: Home
+  url: /
+  external: false
+
+- title: Archive
+  url: /archive/
+  external: false
+
+- title: Tags
+  url: /tags/
+  external: false # set true if you using external link, see below
+
+- title: Github
+  url: https://github.com/sealwangdo
+  external: true
+
+- title: CSDN
+  url: https://blog.csdn.net/xinyuwuxian?type=blog
+  external: true
+
+- title: About
+  url: /about/
+  external: false # set true if you using external link, see below
+
+# Example:
+# - title: github
+#   url: https://github.com/piharpi/jekyll-klise
+#   external: true
