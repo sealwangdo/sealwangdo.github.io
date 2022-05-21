@@ -136,13 +136,13 @@ figcaption {
 
 // List
 ul {
-  list-style: none;
+  list-style: disc;
   li {
     display: list-item;
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\FE63";
+    /*content: "\FE63";*/
     display: inline-block;
     top: -1px;
     width: 1.2em;
@@ -159,11 +159,10 @@ ol {
     position: relative;
     counter-increment: li;
     &::before {
-      content: counter(li);
+      content: "."counter(li);
       display: inline-block;
       width: 1em;
-      margin-right: 0.5em;
-      margin-left: -1.6em;
+      margin-left: -2ch;
       text-align: right;
       direction: rtl;
       font-weight: $bold-weight;
