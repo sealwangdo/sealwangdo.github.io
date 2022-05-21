@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll"
 date:   2022-05-20
-tags: [成长, 积累]
+tags: [jekyll]
 description: [how to use jekyll for my own blog]
 categories: jekyll
 ---

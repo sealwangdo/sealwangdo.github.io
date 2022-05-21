@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GitHub Pages博客搭建教程"
-date:   2022-05-21
-tags: [成长, 积累]
+title: "GitHub Pages博客搭建教程"
+date: 2022-05-21
+tags: [成长, 总结, 博客]
 description: [github docs搭建博客入门，及遇到的问题]
 ---
 
@@ -174,9 +174,7 @@ ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin20]
 sudo gem install jekyll bundler
 ```
 
-耐心等待结果，否则后面的一切都走不通了......
-
-哈哈，成功了，一个石头落地了！
+耐心等待结果，否则后面的一切都走不通了......哈哈，成功了，一个石头落地！
 
 ```
 (base) wanghaitaodeMacBook-Pro:~ Seal$ jekyll -v
