@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Sphinx+Github+ReadTheDocs搭建博客教程"
-date: 2022-05-21
+date: 2022-05-20
 tags: [成长, 总结, 博客]
 description: [ReadTheDocs搭建博客入门，及遇到的问题]
 ---
 
 ## 准备条件
 
-- Github账号，使用github对文档进行版本管理
-- 注册Read the Docs账号，官网地址：https://readthedocs.org/
-- 安装Python，Sphinx是一个python工具，用于生成文档，所以需要安装Python环境。
+* Github账号，使用github对文档进行版本管理
+* 注册Read the Docs账号，官网地址：https://readthedocs.org/
+* 安装Python，Sphinx是一个python工具，用于生成文档，所以需要安装Python环境。
 
 ## Sphinx创建文档
 
