@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Pages博客搭建教程"
 date: 2022-05-20
-tags: [成长, 总结, 博客]
+tags: [成长, 总结, 博客, jekyll]
 description: [github docs搭建博客入门，及遇到的问题]
 ---
 

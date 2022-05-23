@@ -2,7 +2,7 @@
 layout: post
 title: "Sphinx+Github+ReadTheDocs搭建博客教程"
 date: 2022-05-20
-tags: [成长, 总结, 博客]
+tags: [成长, 总结, 博客, readthedocs]
 description: [ReadTheDocs搭建博客入门，及遇到的问题]
 ---
 
