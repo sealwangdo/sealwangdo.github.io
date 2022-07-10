@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+_posts/Android启动/2022-05-24-Android启动流程.md
+_posts/Android启动/2022-06-02-Andorid启动流程-init.md
